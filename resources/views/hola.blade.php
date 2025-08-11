@@ -58,6 +58,9 @@
                         </li>
                     @endforeach
                 </ul>
+                <div class="mt-3">
+                    {{ $saludos->links() }}
+                </div>
             @else
                 <p class="text-center text-muted">No hay saludos registrados.</p>
             @endif
